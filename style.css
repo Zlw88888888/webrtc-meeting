@@ -1,0 +1,8 @@
+*{margin:0;padding:0;box-sizing:border-box;font-size:14px;}
+body{background:#111;color:#fff;padding:10px;}
+.container{max-width:750px;margin:0 auto;}
+.room-box{margin:15px 0;display:flex;gap:8px;flex-wrap:wrap;}
+#roomId{flex:1;padding:10px;border:none;border-radius:6px;color:#000;min-width:180px;}
+button{padding:10px 16px;background:#007aff;border:none;border-radius:6px;color:#fff;}
+video{width:100%;max-height:240px;background:#000;margin:8px 0;border-radius:8px;}
+.local-box,.remote-box{margin:20px 0;}
