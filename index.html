@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>网页会议（手机仅观看共享）</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>在线会议</h2>
+    <div class="room-box">
+      <input type="text" id="roomId" placeholder="输入会议号" value="123456">
+      <button id="joinBtn">加入会议</button>
+      <button id="shareBtn">共享屏幕（仅电脑可用）</button>
+    </div>
+    <div class="local-box">
+      <h4>我的画面</h4>
+      <video id="localVideo" autoplay muted playsinline></video>
+    </div>
+    <div class="remote-box">
+      <h4>参会人/共享屏幕</h4>
+      <div id="remoteContainer"></div>
+    </div>
+  </div>
+  <script src="rtc.js"></script>
+</body>
+</html>
